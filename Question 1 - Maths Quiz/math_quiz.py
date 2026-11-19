@@ -21,7 +21,7 @@ max_num = 9
 def randomInt():
       return random.randint(min_num, max_num)
 
-# generate a random operation, descision between addition and subtraction
+# generate a random operation, descision between addition and subtraction:
 def decideOperation():
       return random.choice(["+", "-"])
 
